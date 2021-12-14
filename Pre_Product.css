@@ -1,0 +1,303 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #666666;
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+p{
+    margin: 0;
+}
+/**end header**/
+.contain{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100px;
+}
+#logo{
+    width: 150px;
+    height: 50px;
+    margin-right: 50px;
+}
+#search{
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    outline: none;
+    border-style: double;
+    color: rgb(158, 158, 158);
+    font-size: 18px;
+}
+header p{
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: 1s;
+}
+header p:hover a{
+    color: #2E818C;
+}
+.head-img{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+.contain ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--back-color);
+    height: 70px;
+    padding-left: 40px;
+}
+.contain ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    margin-left: 30px;
+    height: 70px;
+}
+.contain ul li:hover{
+    background-color: aliceblue;
+}
+.contain ul li img{
+    width: 40px;
+    height: 40px;
+}
+/**end header**/
+  nav img {
+
+    margin-top: 115px;
+
+    width: 100%;
+
+}
+
+
+/** TOP SP **/
+.trending {
+    background:lightseagreen;
+    margin-top: 50px;
+}
+.trending .title{
+    text-align:center;
+    font-size: 30px;
+    background: whitesmoke;
+    margin-top: 50px;
+    color: blueviolet;
+}
+.container-fluid .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 20px 25px 20px;
+}
+.trending .trending-box {
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.trending .trending-box i {
+    height: 290px;
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+
+}
+.margin .trending-box span{
+    color: #020000;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+
+}
+
+
+
+.trending .trending-box h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    color: #050000;
+    padding: 20px 20px;
+
+}
+
+
+/** end TOP SP **/
+
+
+/** SP HNAY**/
+.brand {
+   margin-top: -138px;
+    padding-top: 90px;
+    box-sizing: border-box;
+
+}
+
+.brand .title {
+    text-align:center;
+    padding-bottom: 10px;
+    background: whitesmoke;
+    margin-top: 50px;
+}
+
+.brand .title h2 {
+    font-size: 40px;
+    line-height: 45px;
+    padding-top: 50px;
+    color: blue;
+    font-weight: normal;
+    background: whitesmoke;
+
+
+}
+
+
+.brand-bg  {
+    box-shadow: papayawhip 0 0 19px 8px;
+    margin-bottom: 29px;
+    background: lightseagreen;
+}
+
+.brand-bg .brand-box {
+    background: whitesmoke;
+    text-align: center;
+    padding: 25px 20px 25px 20px;
+    float: left;
+
+
+}
+
+.brand-bg .brand-box:hover {
+    background: #f0efef;
+}
+
+.brand-bg .brand-box i {
+    height: 290px;
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.brand-bg .brand-box img {
+    max-height: 290px;
+
+}
+
+
+.brand-bg .brand-box  h3 {
+    color: #020000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+.brand-bg .brand-box span {
+    color: #020000;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+/** end SP HNAY **/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 80vh;
+    border: 15px solid var(--back-color);
+}
+#footer_company{
+    width: 300px;
+    margin: 30px;
+}
+.footer_title{
+    margin: 10px 0px;
+}
+#footer_company-title{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(146, 146, 146);
+}
+#footer_company-info{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+#footer_company-info i{
+    margin-bottom: 10px;
+}
+#footer_about{
+    width: 300px;
+    margin: 87px 0px 0px 40px;
+}
+#footer_about ul li{
+    list-style: none;
+    margin: 10px 0px;
+}
+#footer_suport{
+    width: 300px;
+    margin-top: 87px;
+}
+#footer_suport ul li{
+    list-style: none;
+    margin: 10px 0px;
+}
+#footer-care{
+    width: 300px;
+    margin-top: 87px;
+}
+#relate{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #888888;
+    margin-bottom: 20px;
+}
+.headset-img{
+    width: 100px;
+    height: 100px;
+}
+#connect{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+    margin: 20px 0px;
+}
+#connect i{
+    margin:0px 20px;
+}
